@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Site personnel de Benjamin Droulon</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="src/css/bulma.min.css">
+		<link rel="stylesheet" href="src/css/main.css">
+		<!-- CSS -->
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+		<script src="src/js/fontawesome-all.js"></script>
+		<!-- Fonts -->
+
+		<!-- meta SEO -->
+		<meta name="description" content="Site personnel, portfolio, CV">
+		<meta name="keywords" content="webdesign, webdevelopper, frontend">
+		<!-- meta SEO -->
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"> <!-- Affichage pour téléphones -->
+	</head>
+	<body>
+
+		<!-- HEADER -->
+		<div class="block">
+			<header class="header">
+				<p class="header-logo">Mon site</p>
+				<nav class="header-menu">
+					<a href="index.html">Accueil</a>
+					<a href="cv.html">CV</a>
+					<a href="works.html">Mes travaux</a>
+					<a href="#">Une map quoi ...</a>
+				</nav>
+			</header>
+		</div>
+		<!-- HEADER -->
+
+		<!-- BANNER -->
+		<div class="block">
+			<div class="banner">
+				<img src="src/img/bg.jpg" alt="Un ordinateur avec du code informatique" class="banner-image">
+				<div class="banner-content">
+					<h1 class="title is-1">Bienvenu sur mon site personnel</h1>
+					<h2 class="subtitle">Découvrez mes <strong>travaux</strong> et mes <strong>connaissances</strong></h2>
+					<button class="button is-link" id="open_modal">Contactez-moi</button>
+				</div>
+			</div>
+		</div>
+		<!-- BANNER -->
+
+			<!-- MODAL -->
+			<div class="modal own-modal" id="modal_to_open">
+				<div class="modal-background"></div>
+					<div class="modal-card">
+						<header class="modal-card-head">
+			    			<p class="modal-card-title">Modal title</p>
+			    			<button class="delete" aria-label="close" id="close_modal"></button>
+						</header>
+						<section class="modal-card-body">
+							<div class="block">
+								<footer class="footer">
+									<h2 class="heading-site">Contactez-moi</h2>
+									<div class="footer-contact-form">
+										<form>
+											<div class="field">
+												<label class="label">Votre nom</label>
+												<div class="control">
+													<input id="name" class="input" type="text" placeholder="Exemple : Cornichon" name="name">
+												</div>
+											</div>
+											<div class="field">
+												<label class="label">Votre prénom</label>
+												<div class="control">
+													<input id="firstname" class="input" type="text" placeholder="Exemple : Gilbert" name="firstname">
+												</div>
+											</div>
+											<div class="field">
+												<label class="label">Votre email</label>
+												<div class="control">
+													<input id="email" class="input" type="text" placeholder="Exemple : coucou@gmail.com" name="email">
+												</div>
+											</div>
+											<div class="field">
+												<label class="label">Votre message</label>
+												<div class="control">
+													<textarea id="message" class="textarea" placeholder="Exemple : Coucou je m'appelle Gilbert Cornichon et j'aime le chocolat." name="message"></textarea>
+												</div>
+											</div>
+										</form>
+										<a href="mailto:benjamin.droulon@gmail.com"><button class="button is-link" id="send_email">Envoyer !</button></a>
+									</div>
+									<div class="footer-informations">
+										<p>2 rue du petit marteau</p>
+										<p>35000, Rennes</p>
+										<ul>
+											<li>
+												<a href="linkedin.com/in/benjamin-droulon-62349b158">
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</li>
+											<li>
+												<a href="linkedin.com/in/benjamin-droulon-62349b158">
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</li>
+											<li>
+												<a href="linkedin.com/in/benjamin-droulon-62349b158">
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</footer>
+							</div>
+						</section>
+						<footer class="modal-card-foot">
+							<button class="button is-link">Save changes</button>
+						</footer>
+				</div>
+			</div>
+			<!-- MODAL -->
+
+		<!-- SECTION : À propos -->
+		<div class="block">
+			<h2 class="heading-site subtitle">À propos</h2>
+			<div class="about">
+				<div class="columns about-all-columns">
+					<div class="column about-single-element">
+						<i class="fas fa-code icon"></i>
+						<p>
+							Les nouvelles technologies, la programmation ... M'ont toujours beaucoup attiré<br /><br />
+							Ainsi, dès la terminale, j'ai choisi la spécialité ISN (informatique et sciences du numérique).<br />
+							J'ai donc pu commencer à programmer, d'abord en Python puis en C.<br /><br />
+							Une fois mon BAC passé, j'ai choisi l'école Epitech (Rennes) pour m'adonner à ma passion de l'informatique et de la programmation.
+						</p>
+					</div>
+					<div class="column about-single-element">
+						<img src="src/img/cycling.png" alt="Icône cycliste">
+						<p>
+							J'ai toujours beaucoup aimé faire du vélo. J'ai notamment pratiqué différentes disciplines, telles que le VTT, le vélo de route mais aussi le BMX Race.<br /><br />
+							C'est un sport qui me permet de m'évader mais aussi de me retrouver.
+						</p>
+					</div>
+					<div class="column about-single-element">
+						<i class="fas fa-flask icon"></i>
+						<p>
+							Les sciences, c'est cool lalalalalalalalalalalalalalalalalalalalalalalalala.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- SECTION : À propos -->
+
+		<!-- Le récap. -->
+		<div class="block">
+			<h2 class="heading-site subtitle">Le récap.</h2>
+				<div class="tile is-ancestor">
+					<div class="tile is-vertical is-8">
+						<div class="tile">
+							<div class="tile is-parent is-vertical">
+								<article class="tile is-child">
+									<div class="notification">
+										<p>
+											Petit récapitulatif des avancements des projets et autres ...
+										</p>
+									</div>
+								</article>
+								<article class="tile is-child">
+									<h3 class="sub-heading-site">Photo du jour ...</h3>
+									<img src="src/img/bg.jpg" alt="Même photo que pour background">
+								</article>
+							</div>
+							<div class="tile is-parent">
+								<article class="tile is-child">
+									<div class="notification is-primary">
+										<div class="COLORED">100 x 100</div>
+									</div>
+								</article>
+							</div>
+						</div>
+						<div class="tile is-parent">
+							<article class="tile is-child">
+								<h3 class="sub-heading-site">Dernière activité Strava</h3>
+								<img src="src/img/strava.png" alt="Dernière activité Strava">
+							</article>
+						</div>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child">
+							<h3 class="sub-heading-site">Projets et avancements :</h3>
+							<div class="notification project_avancement">
+								<p>
+									42sh : rendu le dimanche 27 mai à 23h42.
+									<progress class="progress is-danger" value="25" max="100"></progress>
+									<br />
+								</p>
+								<p>
+									Site personnel / CV : rendu le dimanche 3 juin à 23h42.
+									<progress class="progress is-info" value="40" max="100"></progress>
+									<br />
+								</p>
+								<p>
+									Need4Stek : rendu le dimanche 20 mai à 23h42.
+									<progress class="progress is-success" value="95" max="100"></progress>
+									<br />
+								</p>
+								<p>
+									<progress class="progress is-primary" value="15" max="100">30%</progress>
+									<progress class="progress is-link" value="30" max="100">30%</progress>
+									<progress class="progress is-info" value="45" max="100">45%</progress>
+									<progress class="progress is-success" value="60" max="100">60%</progress>
+									<progress class="progress is-warning" value="90" max="100">90%</progress>
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Le récap. -->
+
+		<!-- Contact -->
+		<div class="block">
+			<footer class="footer">
+				<h2 class="heading-site">Contactez-moi</h2>
+				<div class="footer-contact-form">
+					<form>
+						<div class="field">
+							<label class="label">Votre nom</label>
+							<div class="control">
+								<input id="name" class="input" type="text" placeholder="Exemple : Cornichon" name="name">
+							</div>
+						</div>
+						<div class="field">
+							<label class="label">Votre prénom</label>
+							<div class="control">
+								<input id="firstname" class="input" type="text" placeholder="Exemple : Gilbert" name="firstname">
+							</div>
+						</div>
+						<div class="field">
+							<label class="label">Votre email</label>
+							<div class="control">
+								<input id="email" class="input" type="text" placeholder="Exemple : coucou@gmail.com" name="email">
+							</div>
+						</div>
+						<div class="field">
+							<label class="label">Votre message</label>
+							<div class="control">
+								<textarea id="message" class="textarea" placeholder="Exemple : Coucou je m'appelle Gilbert Cornichon et j'aime le chocolat." name="message"></textarea>
+							</div>
+						</div>
+					</form>
+					<a href="mailto:benjamin.droulon@gmail.com"><button class="button is-link" id="send_email">Envoyer !</button></a>
+				</div>
+				<div class="footer-informations">
+					<p>
+						+33 7 83 40 23 97
+					</p>
+					<p>
+						<a href="mailto:benjamin.droulon@gmail.com">benjamin.droulon@gmail.com</a>
+					</p>
+					<p>
+						2 rue du petit marteau 35000, Rennes<br />
+					</p>
+					<ul>
+						<li>
+							<a href="https://linkedin.com/in/benjamin-droulon-62349b158">
+								<i class="fab fa-linkedin fa-3x"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/BenouChouchen">
+								<i class="fab fa-github fa-3x"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<!-- Contact -->
+
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="src/js/main.js"></script>
+		<!-- Scripts -->
+
+	</body>
+</html>

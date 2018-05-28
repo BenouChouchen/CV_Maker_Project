@@ -1,0 +1,310 @@
+/*
+GLOBAL
+*/
+
+.heading-site {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #7f8c8d;
+	font-size: 30px;
+}
+
+.sub-heading-site {
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #3498db;
+	font-size: 20px;
+}
+
+.COLORED {
+	height: 450px;
+	width: 100%;
+	background-color: #3498db;
+	padding: 30px;
+	text-align: center;
+}
+
+/*
+HEADER
+*/
+
+.header {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: #2c3e50;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #3498db;
+}
+
+.header .header-menu a:hover {
+	color: #FFFFFF;
+}
+
+/*
+BANNER
+*/
+
+.banner {
+	margin-top: -30px;
+}
+
+.banner .banner-image {
+	position: relative;
+}
+
+.banner .banner-content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+	color: #FFFFFF;
+}
+
+.banner .banner-content strong {
+	color: #f1c40f;
+	font-size: 20px;
+}
+
+/*
+ABOUT
+*/
+
+.about .about-all-columns {
+	background-color: #95a5a6;
+}
+
+.about .about-single-element .icon {
+	font-size: 60px;
+	text-align: center;
+}
+
+.about .about-single-element {
+	text-align: center;
+}
+
+.about .about-single-element p {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/*
+LE RÉCAP.
+*/
+
+.project_avancement {
+	background-color: #e67e22;
+}
+
+.project_avancement p {
+	color: #2c3e50;
+}
+
+.project_avancement progress {
+	margin-top: 10px;
+}
+
+/*
+FOOTER
+*/
+
+.footer .footer-informations {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer .footer-informations ul {
+	padding: 0%;
+}
+
+.footer .footer-informations ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+/*
+MODAL
+*/
+
+.own-modal {
+	padding-top: 200px;
+}
+
+/*
+RESPONSIVE BUTTON
+*/
+
+@media screen and (max-width: 600px) {
+	#open_modal {
+		display: none;
+	}
+}
+
+/*
+DROPDOWN BUTTON
+*/
+
+.dropdown {
+	position: fixed;
+	top: 70px;
+	z-index: 999;
+}
+
+.dropdown a:hover {
+	color: #FFFFFF;
+	background-color: #3498db;
+}
+
+/*
+PROJECT DESCRIPTION
+*/
+
+.description {
+	margin-top: 100px;
+}
+
+.description p {
+	text-indent: 20px;
+}
+
+/*
+TEKNOS AND CONCEPTS
+*/
+
+.teknos .notification {
+	background-color: #7f8c8d;
+}
+
+.teknos .notification p {
+	text-indent: 20px;
+	color: #ecf0f1;
+}
+
+.teknos .notification li {
+	color: #ecf0f1;
+}
+
+/*
+APPORTS ET DIFFICULTÉS
+*/
+
+.difficulties {
+	margin-top: 40px;
+}
+/*
+.difficulties .video_content {
+	margin-top: 40px;
+}
+*/
+.apports h3 {
+	text-align: center;
+	font-size: 20px;
+	color: #16a085;
+}
+
+.apports_p {
+	margin-top: 10px;
+	text-indent: 40px;
+}
+
+/*
+WORKS SECTION -> BANNER
+*/
+
+.banner_works {
+	margin-top: 70px;
+}
+
+.banner_works h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #7f8c8d;
+	font-size: 30px;
+}
+
+.banner_works h2 {
+	text-indent: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3498db;
+	font-size: 20px;
+}
+
+.fa-github {
+	color: rgb(0, 0, 0);
+}
+
+/*
+CV
+*/
+
+.cv_profile_pic {
+	margin-left: 30px;
+}
+
+.cv_who {
+	margin-top: -237px;
+	height: 75px;
+	background-color: #A0A0A0;
+}
+
+.cv_who h4 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: 130px;
+}
+
+.cv_who p {
+	margin-top: -10px;
+	margin-left: 130px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.cv_description {
+	height: 125px;
+	margin-top: 5px;
+	background-color: #2980b9;
+}
+
+.cv_description p {
+	margin-left: 130px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.cv_search {
+	height: 1px;
+	background-color: #0099FF;
+}
+
+.cv_search p {
+	margin-top: -11px;
+	margin-left: 130px;
+	text-align: center;
+	font-size: 14px;
+}
