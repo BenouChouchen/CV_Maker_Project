@@ -292,6 +292,8 @@ CV
 }
 
 .cv_description p {
+	margin-top: -15px;
+	font-size: 20px;
 	margin-left: 130px;
 	text-align: center;
 	color: #FFFFFF;
@@ -307,4 +309,113 @@ CV
 	margin-left: 130px;
 	text-align: center;
 	font-size: 14px;
+}
+
+.cv_title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cv_formations_expériences {
+	background-color: #F7F2F5;
+	margin-left: 0px;
+	height: 250px;
+}
+
+.cv_title_formations {
+	text-align: center;
+	color: #f39c12;
+	font-size: 20px;
+}
+
+.fa-graduation-cap {
+	position: relative;
+	top: -35px; left: 334px;
+	font-size: 30px;
+}
+
+.vl {
+	margin-top: -30px;
+    border-left: 4px solid orange;
+    height: 180px;
+}
+
+.cl {
+	width: 15px;
+	height: 15px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: -10px;
+}
+
+.love_circle {
+	position: relative;
+	top: 18px;
+}
+
+.love_circle_2 {
+	position: relative;
+	top: 15px;
+}
+
+.cv_formations_expériences p {
+	margin-left: 15px;
+	color: grey;
+}
+
+.cv_formations_expériences ul {
+	color: grey;
+	margin-top: -10px;
+}
+
+.cv_formations_expériences .bac {
+	margin-top: -4px;
+}
+
+.cv_title_langue {
+	color: #0A79C2;
+	font-size: 20px;
+	text-indent: 15px;
+	text-align: center;
+}
+
+.fa-briefcase {
+	position: relative;
+	top: -35px; left: 45px;
+	font-size: 30px;
+}
+
+.fa-language {
+	font-size: 35px;
+	position: relative;
+	left: 140px;
+	top: 30px;
+}
+
+.cv_languages {
+	position: relative;
+	bottom: 30px;
+}
+
+.cv_languages p {
+	position: relative;
+	bottom: 20px;
+}
+
+.cv_projects_competencies {
+	background-color: #BFB3BD;
+	margin-left: 0px;
+}
+
+.cv_title_projects {
+	color: #193F86;
+}
+
+.cv_title_competencies {
+	color: #0A7FD5;
+}
+
+.cv_title .competencies {
+	text-align: center;
 }
