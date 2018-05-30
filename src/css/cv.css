@@ -1,0 +1,257 @@
+/*
+CV
+*/
+
+/*
+CV INTRODUCTION
+*/
+
+.cv_profile_pic {
+	margin-left: 30px;
+}
+
+.cv_who {
+	margin-top: -237px;
+	height: 75px;
+	background-color: #A0A0A0;
+}
+
+.cv_who h4 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: 130px;
+}
+
+.cv_who p {
+	margin-top: -10px;
+	margin-left: 130px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.cv_description {
+	height: 125px;
+	margin-top: 5px;
+	background-color: #2980b9;
+}
+
+.cv_description p {
+	margin-top: -15px;
+	font-size: 21px;
+	margin-left: 130px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.cv_search {
+	height: 1px;
+	background-color: #0099FF;
+}
+
+.cv_search p {
+	margin-top: -14px;
+	margin-left: 130px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*
+CV FORMATIONS AND EXPERIENCES
+*/
+
+.cv_title {
+	text-align: center;
+}
+
+.cv_formations_expériences {
+	background-color: #F7F2F5;
+	margin-left: 0px;
+	height: 250px;
+}
+
+.cv_title_formations {
+	color: #f39c12;
+	font-size: 25px;
+}
+
+.fa-graduation-cap {
+	font-size: 30px;
+}
+
+.vl {
+    border-left: 4px solid orange;
+    height: 180px;
+    font-size: 18px;
+}
+
+.cl {
+	width: 15px;
+	height: 15px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: -10px;
+}
+
+.love_circle {
+	position: relative;
+	top: 18px;
+}
+
+.love_circle_2 {
+	position: relative;
+	top: 15px;
+}
+
+.cv_formations_expériences p {
+	margin-left: 15px;
+	color: grey;
+}
+
+.cv_formations_expériences ul {
+	color: grey;
+	margin-top: -10px;
+	font-size: 18px;
+}
+
+.cv_formations_expériences .bac {
+	margin-top: -4px;
+}
+
+.cv_title_langue {
+	margin-top: -10px;
+	color: #0A79C2;
+	text-indent: 15px;
+	text-align: center;
+}
+
+.fa-briefcase {
+	font-size: 30px;
+}
+
+.fa-language {
+	font-size: 35px;
+	position: relative;
+	left: 140px;
+	top: 30px;
+}
+
+.cv_languages {
+	position: relative;
+	bottom: 30px;
+}
+
+.cv_languages p {
+	position: relative;
+	font-size: 18px;
+	bottom: 20px;
+}
+
+/*
+CV PROJECTS AND COMPETENCIES
+*/
+
+.cv_projects_competencies {
+	background-color: #BFB3BD;
+	margin-left: 0px;
+	height: 730px;
+}
+
+.cv_title_projects {
+	color: #193F86;
+}
+
+.cv_title_competencies {
+	color: #0A7FD5;
+}
+
+.cv_title .competencies {
+	text-align: center;
+}
+
+.cv_projects_competencies p {
+	margin-top: 50px;
+}
+
+.cv_subtitles_competencies {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	color: #636e72;
+}
+
+.cv_competencies {
+	margin-top: 50px;
+}
+
+.cv_projects_competencies_par {
+	font-size: 17px;
+}
+
+.progress {
+	width: 350px;
+	position: relative;
+	top: -20px;
+	left: 180px;
+	color: #0fb9b1;
+}
+
+.progress-bar {
+	background-color: #0fb9b1;
+}
+
+.cv_icon_competencies {
+	font-size: 70px;
+	text-align: center;
+	color: #576574;
+}
+
+.fa-html5 {
+	color: #e67e22;
+}
+
+.fa-css3-alt {
+	color: #3498db;
+}
+
+.fa-js {
+	color: #f1c40f;
+}
+
+.cv_interests {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.cv_title_interests {
+	margin-top: 10px;
+	color: #0A7FD5;
+}
+
+.cv_interests_subtitles {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+/*
+CV CONTACT
+*/
+
+.cv_contact {
+	background-color: #2980b9;
+}
+
+.cv_contact .container {
+	border-radius: 25px;
+	background: #3498db;
+	padding: 20px;
+	width: 200px;
+	height: 70px;
+	font-size: 20px;
+}
+
+.cv_contact_infos {
+	text-align: center;
+	margin-top: 10px;
+}

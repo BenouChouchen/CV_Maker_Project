@@ -1,0 +1,128 @@
+/*
+HEADER
+*/
+
+.header {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: #2c3e50;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #3498db;
+}
+
+.header .header-menu a:hover {
+	color: #FFFFFF;
+}
+
+/*
+DROPDOWN BUTTON
+*/
+
+.dropdown {
+	position: fixed;
+	top: 70px;
+	z-index: 999;
+}
+
+.dropdown a:hover {
+	color: #FFFFFF;
+	background-color: #3498db;
+}
+
+/*
+PROJECT DESCRIPTION
+*/
+
+.description {
+	margin-top: 100px;
+}
+
+.description p {
+	text-indent: 20px;
+}
+
+/*
+TEKNOS AND CONCEPTS
+*/
+
+.teknos .notification {
+	background-color: #7f8c8d;
+}
+
+.teknos .notification p {
+	text-indent: 20px;
+	color: #ecf0f1;
+}
+
+.teknos .notification li {
+	color: #ecf0f1;
+}
+
+/*
+APPORTS ET DIFFICULTÉS
+*/
+
+.difficulties {
+	margin-top: 40px;
+}
+/*
+.difficulties .video_content {
+	margin-top: 40px;
+}
+*/
+.apports h3 {
+	text-align: center;
+	font-size: 20px;
+	color: #16a085;
+}
+
+.apports_p {
+	margin-top: 10px;
+	text-indent: 40px;
+}
+
+/*
+WORKS SECTION -> BANNER
+*/
+
+.banner_works {
+	margin-top: 70px;
+}
+
+.banner_works h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #7f8c8d;
+	font-size: 30px;
+}
+
+.banner_works h2 {
+	text-indent: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3498db;
+	font-size: 20px;
+}
+
+.fa-github {
+	color: rgb(0, 0, 0);
+}

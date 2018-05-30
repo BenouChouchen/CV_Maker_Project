@@ -6,7 +6,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="src/css/bootstrap.min.css">
-		<link rel="stylesheet" href="src/css/main.css">
+		<link rel="stylesheet" href="src/css/cv.css">
 		<!-- CSS -->
 
 		<!-- Fonts -->
@@ -31,7 +31,10 @@
 						Mon site personnel
 					</a>
 					<a class="nav-link" href="works.html">
-						Mes travaux
+						Mes travaux personnels
+					</a>
+					<a class="nav-link" href="rapport.html">
+						Rapport de stage
 					</a>
 				</div>
 			</div>
@@ -74,8 +77,10 @@
 			<!-- STUDIES -->
 			<div class="row w-100 p-3 cv_formations_expériences">
 				<div class="col">
-					<h3 class="cv_title cv_title_formations">Formations</h3>
-					<i class="fas fa-graduation-cap"></i>
+					<h3 class="cv_title">
+						<span class="cv_title_formations">Formations</span>
+						<i class="fas fa-graduation-cap"></i>
+					</h3>
 					<div class="vl">
 						<div class="cl love_circle"></div>
 						<p>
@@ -94,9 +99,11 @@
 
 			<!-- PROFESSIONNAL EXPERIENCES -->
 				<div class="col">
-					<h3 class="cv_title cv_title_formations">Expériences professionnelles</h3>
-					<i class="fas fa-briefcase"></i>
-						<ul>
+					<h3 class="cv_title">
+						<i class="fas fa-briefcase"></i>
+						<span class="cv_title_formations">Expériences professionnelles</span>
+					</h3>
+						<ul style="margin-top: 20px;">
 							<li>
 								2015 et 2017 : magasinier / réceptionniste chez<br />
 								auto-distribution Armorique (emploi saisonnier).<br />
@@ -113,25 +120,25 @@
 							<h3 class="cv_title cv_title_langue">Langues</h3>
 							<p>
 								<br />
-								Anglais : TOEIC -> 800.&emsp;&emsp;&emsp;
+								Anglais : TOEIC -> 800.&emsp;
 								Espagnol : Niveau "intermédiaire".
 							</p>
 						</div>
 				</div>
 			</div>
 			<!-- LANGUAGES -->
+
+			<!-- PROJECTS -->
 			<div class="row w-100 p-3 cv_projects_competencies">
 				<div class="col">
 					<h3 class="cv_title">
-						<span class="cv_title_projects">
-							Projets de programmation
-						</span>
+						<span class="cv_title_projects">Projets de programmation</span>
 						<i class="fas fa-keyboard"></i>
 					</h3>
 					<p>
-						<ul>
+						<ul class="cv_projects_competencies_par">
 							<li>
-								Programmation Unix en C :
+								<b>Programmation Unix en C :</b>
 								<ul>
 									<li>‘my_printf’ : maîtrise des arguments variadiques en C;</li>
 									<li>'my_ls' : apprentissage des structures;</li>
@@ -140,7 +147,7 @@
 								</ul>
 							</li>
 							<li>
-								Programmation élémentaire en C :
+								<b>Programmation élémentaire en C :</b>
 								<ul>
 									<li>'pushswap' : tri d'une liste de nombres -> maîtrise d'algo. de tri;</li>
 									<li>'BSQ' : calcul d'une surface d'une zone -> algo. du démineur;</li>
@@ -149,7 +156,7 @@
 								</ul>
 							</li>
 							<li>
-								Programmation graphique en C :
+								<b>Programmation graphique en C :</b>
 								<ul>
 									<li>'hunter' : évènements de saisie, hitbox, animations;</li>
 									<li>'runner' : parallax scrolling, collisions, physiques;</li>
@@ -157,7 +164,7 @@
 								</ul>
 							</li>
 							<li>
-								Autres :
+								<b>Autres :</b>
 								<ul>
 									<li>'get_next_line' : read, buffer et variables statiques;</li>
 									<li>minishell : reproduction du shell tcsh : manipulations de chaînes de caractères, signaux, variables d'environnement;</li>
@@ -168,25 +175,98 @@
 						</ul>
 					</p>
 				</div>
+			<!-- PROJECTS -->
+
+			<!-- COMPETENCIES -->
 				<div class="col">
 					<h3 class="cv_title">
 						<div class="competencies">
 							<i class="fas fa-wrench"></i>
-							<span class="cv_title_competencies">
-								Compétences
-							</span>
+							<span class="cv_title_competencies">Compétences</span>
 						</div>
 					</h3>
+					<div class="cv_competencies">
+						<span class="cv_subtitles_competencies">Linux / Shell</span>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<span class="cv_subtitles_competencies">Windows</span>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<span class="cv_subtitles_competencies">OSX</span>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<span class="cv_subtitles_competencies">Travail en groupe</span>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<div class="cv_icon_competencies">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
+							<i class="fab fa-git"></i>
+							<i class="fab fa-python"></i>
+						</div>
+					</div>
 					<div>
-						<p>
-							Linux / Shell
-						</p>
+						<h3 class="cv_title cv_title_interests">Intérêts</h3>
+						<div class="row w-100 p-3 cv_interests">
+							<div class="col">
+								<div>
+									<i class="fas fa-laptop cv_icon_competencies"></i>
+									<div class="cv_interests_subtitles">
+										Programmation
+									</div>
+								</div>
+								<div>
+									<i class="fas fa-flask cv_icon_competencies"></i>
+									<div class="cv_interests_subtitles">
+										Sciences
+									</div>
+
+								</div>
+							</div>
+							<div class="col">
+								<div>
+									<i class="fas fa-laptop cv_icon_competencies"></i>
+									<div class="cv_interests_subtitles">
+										Cyclisme
+									</div>
+								</div>
+								<div>
+									<i class="fas fa-headphones cv_icon_competencies"></i>
+									<div class="cv_interests_subtitles">
+										Musique
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+			<!-- COMPETENCIES -->
+
+			<!-- CONTACT -->
+			<div class="cv_contact">
+				<div class="cv_title container">
+					Contact
+				</div>
+				<div class="cv_contact_infos">
+					<p>
+						+33 7 83 40 23 97<br />
+						benjamin.droulon@epitech.eu<br />
+						2 rue du petit marteau 35000 Rennes
+					</p>
+					<i class="cv_icon_competencies fab fa-linkedin"></i>
+					<i class="cv_icon_competencies fab fa-github-square"></i>
+				</div>
+			</div>
+			<!-- CONTACT -->
+
 		</div>
 		<!-- CV -->
-
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
