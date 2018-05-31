@@ -97,12 +97,23 @@ BANNER
 ABOUT
 */
 
-.about .about-all-columns {
+.about {
 	background-color: #95a5a6;
+	margin-top: -30px;
+}
+
+.about .about_title {
+	background-color: grey;
+	width: 15%;
+}
+
+.about .about_title h2 {
+	margin-left: 10px;
 }
 
 .about .about-single-element {
 	text-align: center;
+	margin-top: 10px;
 }
 
 .about_icons {
@@ -110,9 +121,10 @@ ABOUT
 }
 
 .about .about-single-element p {
+	font-family: 'Roboto Mono', monospace;
 	text-align: left;
 	margin-top: 20px;
-	margin-left: 50px;
+	padding-left: 50px;
 }
 
 /*
@@ -127,13 +139,18 @@ LE RÉCAP.
 	color: #2c3e50;
 }
 
+.recap {
+	background-color: #aaa69d;
+	margin-top: -30px;
+}
+
 /*
 FOOTER
 */
 
 .footer .footer-informations {
 	text-align: center;
-	margin-top: 30px;
+	height: 40px;
 }
 
 .footer .footer-informations ul {
@@ -150,7 +167,11 @@ MODAL
 */
 
 .own-modal {
-	padding-top: 200px;
+	padding-top: 85px;
+}
+
+.modal-card-head {
+	height: 50px;
 }
 
 /*
