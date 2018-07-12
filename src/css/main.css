@@ -6,15 +6,15 @@ GLOBAL
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #7f8c8d;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .sub-heading-site {
 	margin-bottom: 15px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: #3498db;
-	font-size: 20px;
+	color: #bdc3c7;
+	font-size: 25px;
 }
 
 .COLORED {
@@ -83,6 +83,19 @@ BANNER
 	top: 20%;
 }
 
+.banner .banner-content h1 {
+	font-size: 60px;
+	margin-bottom: 100px;
+}
+
+.banner .banner-content h2 {
+	font-size: 30px;
+}
+
+.banner .banner-content button {
+	font-size: 20px;
+}
+
 .banner .banner-content h1,
 .banner .banner-content h2 {
 	color: #FFFFFF;
@@ -90,7 +103,7 @@ BANNER
 
 .banner .banner-content strong {
 	color: #f1c40f;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 /*
@@ -99,12 +112,12 @@ ABOUT
 
 .about {
 	background-color: #95a5a6;
-	margin-top: -30px;
+	margin-top: -31px;
 }
 
 .about .about_title {
 	background-color: grey;
-	width: 15%;
+	width: 300px;
 }
 
 .about .about_title h2 {
@@ -114,6 +127,7 @@ ABOUT
 .about .about-single-element {
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .about_icons {
@@ -125,6 +139,7 @@ ABOUT
 	text-align: left;
 	margin-top: 20px;
 	padding-left: 50px;
+	font-size: 20px;
 }
 
 /*
@@ -137,11 +152,26 @@ LE RÉCAP.
 
 .project_avancement p {
 	color: #2c3e50;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.project_avancement .progress {
+	margin-bottom: 40px;
 }
 
 .recap {
-	background-color: #aaa69d;
+	background-color: #596275;
 	margin-top: -30px;
+}
+
+.recap .container {
+	background-color: grey;
+	width: 300px;
+}
+
+.recap .subtitle {
+	color: #dfe4ea;
 }
 
 /*
@@ -160,6 +190,10 @@ FOOTER
 .footer .footer-informations ul li {
 	display: inline-block;
 	list-style-type: none;
+}
+
+.block .footer .heading-site {
+	
 }
 
 /*
